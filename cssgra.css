@@ -1,0 +1,62 @@
+body {
+    background-color: salmon;
+    
+}
+.grud {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 80% 10%;
+}
+h3.a {
+    grid-column-start: 2;
+    color: springgreen;
+    text-align: center;
+    padding: 50px;
+}
+.sranie {
+   
+    background-color: rgb(103, 43, 200);
+    border-radius: 10px;
+    width: 110px;
+    height: 80px;
+}
+.klik {
+   grid-column-start: 2;
+   grid-row: 2;
+    text-align: center;
+  padding: 50px;
+
+    
+}
+.bi {
+    font-size: 20px;
+    letter-spacing: 1px;
+   font-family:fantasy;
+    grid-column-start: 2;
+    grid-row: 2;
+    text-align: center;
+    padding: 30px;
+
+}
+.super {
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(69, 21, 42);
+}
+h3.b {
+   color: rgb(182, 248, 255);
+   
+
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+}
+h6 {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    font-size: 40px;
+}
